@@ -82,7 +82,7 @@ img.src = base64Images.home;
 let mode = "home";
 
 /* 座標表示 */
-img.addEventListener("mousemove", function(event) {
+/*img.addEventListener("mousemove", function(event) {
   const rect = img.getBoundingClientRect();
   const x = Math.floor(event.clientX - rect.left);
   const y = Math.floor(event.clientY - rect.top);
@@ -91,6 +91,7 @@ img.addEventListener("mousemove", function(event) {
   coord.style.top  = (event.clientY - rect.top + 10) + "px";
   coord.textContent = `(${x}, ${y})`;
 });
+*/
 
 /* ホーム画像クリック → 画像 or テキスト表示 */
 img.addEventListener("click", function(event) {
